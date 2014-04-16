@@ -1,0 +1,19 @@
+<head>
+  <title>scancode</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <form id="myform">
+    <input type="text" name="serial" size="130">
+    <input type="submit" value="Submit" />
+  </form>
+  <div class="ticket">
+    <div class="formattedbarcode"></div>
+    <div class="prefix"></div>
+    <div class="numbers"></div>
+  </div>
+</template>
